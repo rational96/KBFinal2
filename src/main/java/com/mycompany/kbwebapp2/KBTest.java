@@ -48,10 +48,11 @@ public class KBTest {
         contentJ = j;
     }
     private static String[] citationsJ;      // article citations
+    /*
     public void citationsJset(String j){
         citationsJ[] = j;
     }
-    /*
+    
     * Constructor for this class.
     * currently does nothing.
     */
