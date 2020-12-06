@@ -2,7 +2,7 @@
 import java.util.*;
 // JSON imports
 import java.io.IOException;
-//import org.json.simple.JSONObject;
+import org.json.simple.JSONObject;
 /*
 // JSoup imports
 import org.jsoup.*;
@@ -30,7 +30,7 @@ public class KBTest {
     // fields
     private JSONObject articleJ;    // article to test
     public void articleJset(JSONObject j){
-        authorJ = j;
+        articleJ = j;
     }
     private static String authorJ;         // article author
     public void authorJset(String j){
