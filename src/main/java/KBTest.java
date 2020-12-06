@@ -1,13 +1,13 @@
 import java.util.*;
 // JSON imports
 import java.io.IOException;
-import org.json.simple.JSONObject;
-/*
+import org.json.simple.*;
+
 // JSoup imports
 import org.jsoup.*;
 import org.jsoup.nodes.*;
 import org.jsoup.select.*;
-*/  
+
 // untagged imports
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -32,23 +32,23 @@ public class KBTest {
     public void articleJset(JSONObject j){
         articleJ = j;
     }
-    private static String authorJ;         // article author
+    private String authorJ;         // article author
     public void authorJset(String j){
         authorJ = j;
     }
-    private static String URLJ;            // article URL
+    private String URLJ;            // article URL
     public void URLJset(String j){
         URLJ = j;
     }
-    private static String dateJ;           // article Date
+    private String dateJ;           // article Date
     public void dateJset(String j){
         dateJ = j;
     }
-    private static String contentJ;        // article content
+    private String contentJ;        // article content
     public void contentJset(String j){
         contentJ = j;
     }
-    private static String[] citationsJ;      // article citations
+    private String[] citationsJ;      // article citations
     /*
     public void citationsJset(String j){
         citationsJ[] = j;

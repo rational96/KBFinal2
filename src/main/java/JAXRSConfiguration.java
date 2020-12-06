@@ -1,4 +1,4 @@
-package com.mycompany.kbwebapp2;
+
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

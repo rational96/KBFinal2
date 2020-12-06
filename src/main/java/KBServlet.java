@@ -1,3 +1,4 @@
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -12,13 +13,13 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(urlPatterns = {"/KBServlet"})
 public class KBServlet extends HttpServlet {
+    private KBTest kb;
     private static final long serialVersionUID = 1L;
     public KBServlet() {
         super();
     }
     
    
-    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
@@ -31,10 +32,17 @@ public class KBServlet extends HttpServlet {
    
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        KBTest.authorJset("");
-        response = KBTest.kbtest("");
-        doGet(request, response);
-    }
-
-
+        StringBuilder sb = new StringBuilder();
+        BufferedReader reader = request.getReader();
+        try {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                sb.append(line).append('\n');
+            }
+        } finally {
+            reader.close();
+        }
+        System.out.println(sb.toString());
+        
+        }
 }
