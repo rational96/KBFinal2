@@ -1,7 +1,7 @@
-
+package kbwebapp2;
 package servlet;
 
-import com.mycompany.kbwebapp2.KBTest;
+import com.mycompany.kbwebapp2.KBTest.java;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
