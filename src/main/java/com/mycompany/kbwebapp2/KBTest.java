@@ -1,4 +1,3 @@
-package kbwebapp2;
 import java.util.*;
 // JSON imports
 import java.io.IOException;
