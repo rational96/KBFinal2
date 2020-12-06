@@ -1,5 +1,4 @@
 package kbwebapp2;
-package servlet;
 
 import com.mycompany.kbwebapp2.KBTest.java;
 import java.io.IOException;
