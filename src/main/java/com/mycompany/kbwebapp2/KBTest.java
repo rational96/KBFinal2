@@ -57,6 +57,8 @@ public class KBTest {
     * Constructor for this class.
     * currently does nothing.
     */
+    
+    /*test
     public KBTest(JSONObject obj) {
         // initialize variables
         // eventually, we'll be putting code to scan articleJ and fill the respective
@@ -69,7 +71,7 @@ public class KBTest {
         contentJ = "";
         citationsJ = new String[] {""};
     }
-    
+    */
     //making connection to net
     public static HttpURLConnection connection;
     
