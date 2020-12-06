@@ -31,8 +31,8 @@ public class KBServlet extends HttpServlet {
    
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        KBTest.authorJset(request);
-        response = KBTest.kbtest(request);
+        KBTest.authorJset("");
+        response = KBTest.kbtest("");
         doGet(request, response);
     }
 
