@@ -3,10 +3,12 @@ import java.util.*;
 // JSON imports
 import java.io.IOException;
 import org.json.simple.JSONObject;
+/*
 // JSoup imports
 import org.jsoup.*;
 import org.jsoup.nodes.*;
 import org.jsoup.select.*;
+*/  
 // untagged imports
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -16,7 +18,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLConnection;
 import java.net.URL;
-        
+      
 
 /**
  *
