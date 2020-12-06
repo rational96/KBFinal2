@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author rasha
+ * @author rashad
  */
 @WebServlet(urlPatterns = {"/KBServlet"})
 public class KBServlet extends HttpServlet {
