@@ -1,1 +1,1 @@
-web: java -jar target/KBFinal2.jar
+web: java -jar target/kbwebtest.jar
