@@ -1,0 +1,1 @@
+web: java -jar target/KBFinal2.jar
